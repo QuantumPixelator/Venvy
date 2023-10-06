@@ -1,0 +1,22 @@
+{
+    "name": "venvy",
+    "version": "1.0.0",
+    "description": "Create and activate virtual environments for Python in VS Code.",
+    "author": "Quantum Pixelator",
+    "publisher": "Quantum Pixelator",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./src/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "venvy.activateEnvironment",
+                "title": "Activate Virtual Environment"
+            }
+        ]
+    }
+}
