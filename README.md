@@ -16,11 +16,13 @@ Venvy is a Visual Studio Code extension that simplifies the process of setting u
 
 1. Open Visual Studio Code.
 2. Go to the Extensions view by clicking on the square icon in the sidebar, or press `Ctrl+Shift+X`.
-3. Search for "Venvy" and click the Install button next to it.
+3. At the top of the EXTENSIONS view, click the three little dots in the top right corner.
+4. Choose "Install from VSIX..." in the menu that pops up.
+5. Browse to the extension (example:  venvy-1.0.0.vsix) and click INSTALL. 
 
 ## How to Use
 
-After installation, you'll see a `Activate Venv` button in the status bar at the bottom of the VS Code window.
+After installation, you'll see a `Activate Venv` button in the status bar at the bottom of the VS Code window. (Defaults to bottom right corner.)
 
 - **Creating a New Virtual Environment**: Click the `Activate Venv` button. If a virtual environment doesn't exist in your project folder, Venvy will create one for you.
   
@@ -42,4 +44,4 @@ Feel free to open issues or PRs on the [GitHub repository](https://github.com/Qu
 
 ## License
 
-This extension is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt) file for more details.
+This extension is licensed under the MIT License. Do whatever you want with it. :)
