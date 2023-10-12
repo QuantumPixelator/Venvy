@@ -33,6 +33,9 @@ After installation, you'll see a `Activate Venv` button in the status bar at the
 - Python must be installed on your system.
 - The Python executable should be accessible from the command line (i.e., `python` or `python3` should work when entered in the terminal).
 - You should have the appropriate filesystem permissions to create directories and files in your project folder.
+- Ensure you have npm installed (node.js installer for your system)
+- To create the VSIX file:  open a terminal or command prompt, cd to the directory containing the source. Type this:  npm install -g vsce, then this:  vcse package
+- Follow the INSTALLATION above.
 
 ## Known Issues
 
